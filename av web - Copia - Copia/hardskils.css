@@ -1,0 +1,88 @@
+@import url(index.css);
+
+header{
+    background-color: #EAEAEA;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 10px 0px 5px 5px #EAEAEA;
+    margin-top: -32px;
+}
+
+.h1-hard{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    padding-top: 40px;
+}
+
+.skils{
+    border-top: 3px  solid black;
+    margin-top: -4px;
+}
+
+.h2-hard{
+    display: flex;
+    justify-content: center;
+    color: #BDBDBD;
+}
+
+.li-hard{
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-hard{
+    display: flex;
+    justify-content: end;
+    margin-top: -340px;
+    margin-right: 100px;
+}
+
+
+
+.css::-webkit-progress-value {
+    background-color: black;
+    
+  }
+
+  progress {
+    
+    background: yellow;
+    
+  }
+
+
+
+@media screen and (max-width: 800px) {
+
+    
+.li-hard{
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img-hard{
+    display: flex;
+    justify-content: end;
+    margin-top: 90px;
+    margin-right: 100px;
+}
+
+.contatos{
+        margin-right: 40px;
+        color: #000000;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+}
